@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+
+    <title>Netpoleon Solutions</title>
+    <style>
+      table,
+      td {
+        border: 1px solid white;
+        border-collapse: collapse;
+      }
+      td {
+        background-color: #e2e8e8;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html" class="logo"
+          ><img src="images/netpoleon logo1.jpg" alt=""
+        /></a>
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li>
+            <a href="#">HOME</a>
+          </li>
+          <li>
+            <a href="#">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#">WHY NETPOLEON</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              PRODUCTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">AUSTRALIA</a></li>
+              <li><a class="dropdown-item" href="#">CAMBODIA</a></li>
+              <li><a class="dropdown-item" href="#">INDONESIA</a></li>
+              <li><a class="dropdown-item" href="#">INDIA</a></li>
+              <li><a class="dropdown-item" href="#">MALAYSIA</a></li>
+              <li><a class="dropdown-item" href="#">NEW ZEALAND</a></li>
+              <li><a class="dropdown-item" href="#">PHILIPPINES</a></li>
+              <li><a class="dropdown-item" href="#">SINGAPORE</a></li>
+              <li><a class="dropdown-item" href="#">THAILAND</a></li>
+              <li><a class="dropdown-item" href="#">VIETNAM</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              NEWS & EVENTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">NEWS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              CAREERS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">INTERNSHIP</a></li>
+              <li>
+                <a class="dropdown-item" href="#">JOB APPLICATION FORM</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">TRAINING COURSE</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              CONTACT US
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">ENQUIRY FORM</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner banner">
+        <div class="carousel-item active">
+          <img src="Images/banner-1.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/banner-2.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/banner-3.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="table">
+      <h1 class="highlight">HIGHLIGHT</h1>
+      <table>
+        <tr>
+          <td
+            rowspan="5"
+            style="
+              background-color: rgb(243, 73, 11);
+              padding: 30px 30px;
+              font-weight: 700;
+              color: #e2e8e8;
+            "
+          >
+            NEWS
+          </td>
+          <td style="padding: 3px 40px; font-weight: 600">25 April 2023</td>
+          <td style="color: orangered; font-weight: 750">
+            Netpoleon Singapore receives recognition at the Infosys Sambandh
+            Vendor-Partner Meet 2023
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 3px 40px; font-weight: 600">4 April 2023</td>
+          <td style="color: orangered; font-weight: 750">
+            Netpoleon India receives recognition at the Infosys Sambandh
+            Vendor-Partner Meet 2023
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 3px 40px; font-weight: 600">21 March 2023</td>
+          <td style="color: orangered; font-weight: 750">
+            Netpoleon India wins ‘VALUE-ADDED DISTRIBUTOR’ Award at the Aruba
+            EDGEVANTAGE – India Partner Summit 2023
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 3px 40px; font-weight: 600">10 March 2023</td>
+          <td style="color: orangered; font-weight: 750">
+            Netpoleon wins ‘EMERGING VALUE-ADDED DISTRIBUTOR OF THE YEAR’ and
+            ‘PARTNER SE EXCELLENCE’ awards at the Nozomi Networks APJ Partner
+            Summit 2023
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 3px 40px; font-weight: 600">8 March 2023</td>
+          <td style="color: orangered; font-weight: 750">
+            Netpoleon India onboards eMudhra
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="about">
+      <h1>ABOUT NETPOLEON</h1>
+      <p>
+        A leading provider of integrated security, networking solutions and
+        value added services
+      </p>
+      <div class="showcase">
+        <div class="image">
+          <img src="Images/Vad.png" alt="Vad" />
+          <p>Established as Value Added Distributor (VAD) since July 2000.</p>
+        </div>
+        <div class="image">
+          <img src="Images/Regional.png" alt="Vad" />
+          <p>
+            Regional presence in Singapore, Australia, India, Indonesia,
+            Cambodia, Malaysia, Myanmar, Philippines, Thailand and Vietnam.
+          </p>
+        </div>
+        <div class="image">
+          <img src="Images/products.png" alt="Vad" />
+          <p>Selective of our products & focus on best-of-breed solutions</p>
+        </div>
+        <div class="image">
+          <img src="Images/Leading.png" alt="Vad" />
+          <p>
+            Leading VAD for Network and IT Security Solutions and service in the
+            region.
+          </p>
+        </div>
+      </div>
+      <div class="button">
+        <button type="button">FIND OUT MORE</button>
+      </div>
+    </div>
+
+    <div class="why">
+      <h1>WHY NETPOLEON</h1>
+      <div class="showcase">
+        <div class="image">
+          <img src="Images/certified.png" alt="poc" />
+          <p>Certified Engineers</p>
+        </div>
+        <div class="image">
+          <img src="Images/poc.png" alt="poc" />
+          <p>Provide POC & Architecture Design</p>
+        </div>
+        <div class="image">
+          <img src="Images/installation.png" alt="poc" />
+          <p>
+            Provide Installation, Implementation, Migration, Commissioning and
+            Reconfiguration
+          </p>
+        </div>
+        <div class="image">
+          <img src="Images/support.png" alt="poc" />
+          <p>
+            24/7 Technical Service Support and Advanced Hardware ​Replacement
+          </p>
+        </div>
+        <div class="image">
+          <img src="Images/training.png" alt="poc" />
+          <p>Certification and Customized Technical Training</p>
+        </div>
+        <div class="image">
+          <img src="Images/coverage.png" alt="poc" />
+          <p>Regional Growth Opportunity with Netpoleon's Regional Coverage</p>
+        </div>
+      </div>
+      <div class="button">
+        <button type="button">FIND OUT MORE</button>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h1>How we can help you?</h1>
+      <div class="button">
+        <button type="button">CONTACT US</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright &#169; 2023. Netpoleon Group. All right reserved</p>
+      <p>Privacy Policy</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
